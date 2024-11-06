@@ -22,6 +22,11 @@ packages:
   gitUrl: https://github.webmethods.io/kvv
   gitUsername: kvv
   gitBranch: main
+- name: PackageB
+  gitServerName: SIQAPsur
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: prabhakarsag
+  gitBranch: main
 services:
 - serviceName: project.siqa_0611.integrations:testFS
   packages:
